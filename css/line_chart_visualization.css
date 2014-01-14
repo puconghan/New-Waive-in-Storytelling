@@ -1,0 +1,77 @@
+path {
+	stroke-width: 2;
+	fill: none;
+}
+
+.data1 {
+	stroke: steelblue;
+}
+
+.data2 {
+	stroke: orange;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: lightgrey;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.x.axis text {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.y.axis text {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.y.axisRight text {
+	fill: orange;
+}
+
+.y.axisLeft text {
+	fill: steelblue;
+}
+
+.bottomlabel{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 18px;
+}
+
+.bottomlabelauthor{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 18px;
+}
+
+.scaleleft{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	fill: steelblue;
+}
+
+.scaleright{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	fill: orange;
+}
